@@ -2,6 +2,11 @@
 
 ParallaxMD is a modern, native Windows desktop Markdown editor built with Tauri, Next.js, and Tailwind CSS. It features a side-by-side synchronized editing experience using CodeMirror for raw markdown input and Milkdown for a rich visual rendering.
 
+## Quick Links
+- 🌐 **Marketing Page**: [https://parallaxmd.sanchez.ph](https://parallaxmd.sanchez.ph)
+- 📝 **Web Demo**: [https://parallaxmd.sanchez.ph/editor](https://parallaxmd.sanchez.ph/editor)
+- 🚀 **Latest Release (v0.1.1)**: [Download Windows Installers](https://github.com/tildemark/ParallaxMD/releases/tag/v0.1.1)
+
 ## Features
 - **Two-Way Sync**: Type in the raw editor or format in the visual editor; they stay perfectly in sync without cursor jumps.
 - **Enhanced Markdown**: Supports GitHub Flavored Markdown (GFM) including tables, task lists, and strikethrough.
