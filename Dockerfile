@@ -1,10 +1,12 @@
 # Build the Next.js static export
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
+
+RUN apk add --no-cache libc6-compat python3 make g++
 
 WORKDIR /app
 # Install dependencies
 COPY package.json package-lock.json* ./
-RUN npm ci
+RUN npm ci --legacy-peer-deps
 
 # Copy source and build the static output
 COPY . .
