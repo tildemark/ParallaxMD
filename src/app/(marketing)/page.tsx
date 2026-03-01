@@ -21,13 +21,13 @@ export default function MarketingPage() {
                     </div>
                     <div className="flex items-center gap-6 text-sm font-medium">
                         <a href="#features" className="text-zinc-400 hover:text-white transition">Features</a>
-                        <a href="https://github.com/derf/parallaxmd/blob/main/architecture.md" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition">Architecture</a>
-                        <a href="https://github.com/derf/parallaxmd/blob/main/LICENSE" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition">License</a>
+                        <a href="https://github.com/tildemark/ParallaxMD/blob/main/architecture.md" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition">Architecture</a>
+                        <a href="https://github.com/tildemark/ParallaxMD/blob/main/LICENSE" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition">License</a>
                         <div className="h-4 w-px bg-white/10"></div>
                         <a href="/editor" className="text-zinc-300 hover:text-white transition font-semibold">
                             Try Web Demo
                         </a>
-                        <a href="https://github.com/derf/parallaxmd/releases" target="_blank" rel="noreferrer" className="bg-white text-black px-4 py-2 rounded-full hover:bg-zinc-200 transition flex items-center gap-2">
+                        <a href="https://github.com/tildemark/ParallaxMD/releases" target="_blank" rel="noreferrer" className="bg-white text-black px-4 py-2 rounded-full hover:bg-zinc-200 transition flex items-center gap-2">
                             <DownloadIcon className="w-4 h-4" /> Download
                         </a>
                     </div>
@@ -50,7 +50,7 @@ export default function MarketingPage() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                    <a href="https://github.com/derf/parallaxmd/releases" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-semibold transition shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2">
+                    <a href="https://github.com/tildemark/ParallaxMD/releases" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-semibold transition shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2">
                         <DownloadIcon className="w-5 h-5" /> Download for Windows
                     </a>
                     <a href="/editor" className="w-full sm:w-auto px-8 py-4 bg-zinc-900 border border-zinc-800 hover:bg-zinc-800 text-white rounded-full font-semibold transition flex items-center justify-center gap-2">
